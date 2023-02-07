@@ -555,6 +555,11 @@ select:invalid{
     padding: 60px 0;
     width: 634px;
 }
+.plans__tabs--container{
+    display: flex;
+    flex-direction: column;
+    gap: 6.5px;
+}
 
 .plans__tabs--nav{
     display: grid;
@@ -571,4 +576,209 @@ select:invalid{
     align-items: center;
     gap: 15px;
     cursor: pointer;
+}
+
+.plans__price{
+   
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #151B4A;
+}
+
+.plans__info{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #151B4A;
+}
+.tabs__content--container{
+    border: 1px solid #FFCC00;
+}
+.plans__tabs--content{
+    padding: 0 28px;
+}
+.tabs__content--heading{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.content__items{
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1fr;
+    justify-items: center;
+    column-gap: 15px;
+    /* row-gap: 30px; */
+}
+
+
+ 
+.tabs__content--includes ul,li{
+    padding: 0;
+    margin: 0;
+}
+
+.content__item{
+     
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0.04em;
+text-align: center;
+justify-self: left;
+margin-bottom: 30px;
+
+}
+.enroll_btn{
+    margin:52px 0 10px 0;
+    background: #125E50;
+    color: #fff;
+    padding: 10px 30px;
+    transition: all .3s ease-in-out;
+}
+ 
+
+.enroll_btn:hover{
+    background-color:rgba(18, 93, 80, .8);
+ }
+
+.active{
+    background-color: #FFCC00;
+    transform: scaleY(1.1);
+}
+ 
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+
+/* contact css */
+
+.contact__container{
+    width: 1073px;
+    /* height: 714px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+    position: relative;
+    background-image: url(./assets/images/contact_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
+.contact__logo{
+    height: 36px;
+    width: 155px;
+    margin-bottom: 40px;
+    
+}
+.contact__top{
+    padding: 40px 70px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    column-gap: 62px;
+}
+
+.contact__heading{
+ 
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #151B4A;
+}
+.contact__text{
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin: 15px 0 30px 0;
+    color: #4E516C;
+}
+.social-links{
+    list-style: none;
+    display: flex;
+    gap:13px;
+}
+
+.social-links img{
+    width: 23px;
+    height: 23px;
+}
+
+.contact__footer--title{
+   
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #151B4A;
+margin-bottom: 15px;
+
+}
+.contact__footer--items{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact__item a{
+    text-decoration: none; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #4E516C;
+    transition: all .3s ease-in-out;
+}
+.contact__item a:hover{
+    text-decoration: underline;
+}
+
+.contact__top--right{
+    display: flex;
+    gap: 85px;
+}
+.contact__line{
+   width: 87%;
+}
+.copyright{
+ 
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #4E516C;
+
+}
+.contact__copyright{
+    margin: 35px 0;
+}
+.contact__child{
+    position: absolute;
+    width: 169.78px;
+    height: 144.52px;
+    left: 79%;
+    top: 48%;
 }
