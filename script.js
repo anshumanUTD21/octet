@@ -16,5 +16,3 @@ tabs.forEach((tab,index)=>{
     })
 })
 
-console.log(tabs);
-console.log(tabsContent);

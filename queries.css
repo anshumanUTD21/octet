@@ -1,0 +1,355 @@
+/* @media only screen and (min-width: 390px) and (max-width: 767px) { */
+
+  @media (max-width: 34em) {
+
+  .h1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+
+  .header__nav--top,
+  .header__nav--right,
+  .header__nav--mid {
+    display: none;
+  }
+  .header__nav--left {
+    gap: 76px;
+  }
+  .line--logo {
+    height: 15.686347007751465px;
+    width: 20px;
+  }
+  .mama--logo {
+    height: 28px;
+    width: 122px;
+  }
+
+  .star--left,
+  .star--right {
+    display: none;
+  }
+  .header__content--container {
+    width: auto;
+    margin: 50px 52px;
+  }
+  .header__content {
+    height: 522px;
+    border-radius: 0 0 239px 239px;
+  }
+
+  .header__content--mainHeader {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+
+  .header__content--sub {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .zigzag {
+    width: 94.21px;
+    height: 6.36px;
+    right: 44px;
+    top: 106px;
+  }
+  .header__content--exploreBtn {
+    height: 36px;
+    width: 165px;
+    border-radius: 60px;
+    padding: 6px 15px 6px 15px;
+    margin-bottom: 13px;
+  }
+  .round--arrow {
+    width: 39.23px;
+    height: 31.89px;
+    transform: rotate(-25.08deg);
+    top: -22px;
+    left: 171px;
+  }
+  .header__content--assessmentText {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    height: 69px;
+    width: 254px;
+  }
+  .left {
+    width: 147.07px;
+    height: 151.86px;
+    transform: rotate(-8.93deg);
+    top: 432px;
+    left: 12px;
+  }
+  .right {
+    height: 117.7861557006836px;
+    width: 82.39659118652344px;
+    right: 33px;
+    top: 464px;
+  }
+  .mobile__nav {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
+  }
+  .mobile--icon {
+    height: 17px;
+    width: 17px;
+  }
+  .mobile__nav ul {
+    list-style-type: none;
+    list-style-position: inside;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .mobile__nav li {
+    border-right: 1px solid #1f1f1f;
+  }
+  .mobile__nav a {
+    width: 93px;
+    height: 70px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+  }
+
+  .mobile__nav a p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    border-bottom: 14px;
+    color: #fff;
+  }
+  .program__header--container {
+    width: auto;
+  }
+  .program__heading {
+    padding-top: 80px;
+  }
+  .program__container--inner {
+    width: 90%;
+    height: auto;
+  }
+  .program__info {
+    display: none;
+  }
+  .program__types {
+    flex-direction: column;
+  }
+
+  .frame {
+    width: 191px;
+    height: 191px;
+    margin-left: 55px;
+  }
+  .programe__img {
+    width: 169.98px;
+    height: 169.98px;
+  }
+
+  .program__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .program__type--details {
+    text-align: center;
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.04em;
+  }
+
+  .program__type--title {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+  }
+  .program__link {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ea5858;
+  }
+
+  .howdo__container {
+    display: none;
+  }
+
+  .howdo__diagram--full {
+    display: none;
+  }
+  .whoarewe__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0px;
+    padding: 0 36px;
+    width: 100%;
+  }
+
+  .whoarewe__sub {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #4e516c;
+    margin-bottom: 60px;
+  }
+
+  .whoarewe__container img {
+    height: 730.802734375px;
+    width: 324px;
+  }
+
+  .question__container {
+    width: 90%;
+    height: auto;
+  }
+
+  .question__info {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+  .question__header--container {
+    padding: 30px 0;
+    width: 100%;
+  }
+  .form__container {
+    background: #e4f7f3;
+    width: inherit;
+  }
+
+
+.form__top {
+  grid-template-columns: 1fr;
+}
+
+.form__top label {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+}
+.form__top input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+}
+select:invalid {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+}
+
+.email__container {
+  grid-column: 1/1;
+}
+
+.form__heading {
+  padding-bottom: 30px;
+}
+
+.plans__container {
+  display: none;
+}
+
+.contact__container {
+  width: 90%;
+  height: auto;
+  padding-top: 30px;
+}
+.contact__logo {
+  height: 23.974193572998047px;
+  width: 103.22222137451172px;
+  margin-bottom: 35px;
+}
+
+.contact__heading {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.contact__text {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.contact__top {
+  grid-template-columns: 1fr;
+}
+
+.social-links {
+  height: 18.917545318603516px;
+  width: 18.917545318603516px;
+}
+
+.contact__top--left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.contact__-social {
+  margin-left: -81px;
+}
+.contact__foter--title {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.contact__child {
+  height: 47.50475311279297px;
+  width: 55.807456970214844px;
+  top: 76%;
+}
+.copyright {
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 11px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.contact__footer--items {
+  display: none;
+}
+
+
+
+}

@@ -5,7 +5,8 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
+    /* position: relative; */
+    font-family: "Inter", sans-serif;
   }
 
 nav{
@@ -60,6 +61,9 @@ h1{
 }
 
 /* navigation menu css */
+header{
+    position: relative;
+}
 .header__nav--bottom{
     position: relative;
     display: flex;
@@ -127,7 +131,9 @@ h1{
 }
  
 
- 
+ .mobile__nav{
+    display: none;
+ }
 
 
 
@@ -137,19 +143,23 @@ h1{
 
 .nav__mid--items li.new::after{
     content: "New";
+    display: flex;
     position: absolute;
     background-color: #ea5858;
     color: #ffffff;
     border-radius: 6px;
-    width: 20px;
-    height: 24px;
+    width: 14px;
+    height: 10px;
     font-size: 9px;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 11px;
     letter-spacing: 0em;
-    text-align: center;
-    left: 140px;
-    top: -20px;
+    /* text-align: center; */
+    left: 135px;
+    top: -7px;
+    PADDING: 2PX 8PX;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn{
@@ -195,8 +205,10 @@ h1{
 
 /* header content section css */
 .header__content{
+    /* position: sticky; */
     background-color: #FFF6CC;
     height: 620px;
+    width: 100%;
     padding: 10px;
     /* clip-path: ellipse(65% 67% at 50% 26%); */
     border-radius: 0 0 50% 50%;
@@ -224,6 +236,10 @@ h1{
 .header__content--exploreBtn:hover{
     background-color:rgba(18, 93, 80, .8);;
 }
+.head__img{
+    position: relative;
+}
+
 .header__content--mainHeader{
     font-family: Noto Serif;
     font-size: 40px;
@@ -261,8 +277,8 @@ h1{
     position: absolute;
     width: 21.74px;
     height: 24.51px;
-    left: 195px;
-    top: 182.27px;
+    left: 211px;
+    top: 157.27px;
     /* background: #151B4A; */
     transform: rotate(-16.76deg);
 }
@@ -270,23 +286,27 @@ h1{
     position: absolute;
     width: 36.9px;
     height: 50.3px;
-    left: 1250px;
-    top: 168px;
+    right: 207px;
+    top: 142px;
+
 }
 .zigzag{
     position: absolute;
     width: 163.45px;
     height: 19px;
-    left: 828.08px;
-    top: 362px;
+    right: 131px;
+    top: 112px;
     transform: rotate(0.47deg);
+}
+.button__img--container{
+    position: relative;
 }
 .round--arrow{
     position: absolute;
     width: 83.95px;
     height: 65.15px;
-    left: 869.96px;
-    top: 437.16px;
+    left: 196px;
+    top: -42px;
     transform: rotate(-7.72deg);
 }
 
@@ -296,8 +316,8 @@ h1{
     width: 297.42px;
     height: 307.11px;
     left: 25.23px;
-    top: 330.28px;
-    transform: rotate(1.9deg);
+    top: 334.28px;
+    transform: rotate(-0.1deg);
 
 }
 
@@ -305,9 +325,9 @@ h1{
     position: absolute;
     height: 280.7861064056397px;
     width: 196.4209776070549px;
-    left: 1219.999512px;
-    top: 397.821289px;
-    transform: rotate(2.26deg);
+    right: 104px;
+    top: 398.821289px;
+    transform: rotate(1.26deg);
 }
 
 /* programs section  styling css */
@@ -419,6 +439,10 @@ h1{
  .howdo__diagram--full{
     width: 1155.01px;
     height: 504px;
+ }
+
+ .whoarewe__container{
+    display: none;
  }
 
  /* Get more question section css */
@@ -762,23 +786,23 @@ margin-bottom: 15px;
 .contact__line{
    width: 87%;
 }
-.copyright{
- 
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.03em;
-text-align: left;
-color: #4E516C;
-
-}
-.contact__copyright{
+.copyright {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #4e516c;
+  }
+  
+.contact__copyright {
     margin: 35px 0;
-}
-.contact__child{
+  }
+  
+.contact__child {
     position: absolute;
     width: 169.78px;
     height: 144.52px;
     left: 79%;
     top: 48%;
-}
+    }
