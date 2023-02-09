@@ -15,4 +15,24 @@ tabs.forEach((tab,index)=>{
         tabs[index].classList.add('active');
     })
 })
+const navEl=document.querySelector('.header__nav--bottom');
+console.log(navEl)
 
+const navElHeight=navEl.getBoundingClientRect().height;
+
+const headContent=document.querySelector('.header__content');
+
+const stickyNav=function(entries){
+    const [entry]=entries;
+    if(!entry.isIntersecting){
+        navEl.classList.add('sticky');
+    }else{
+        navEl.classList.remove('sticky');
+    }
+}
+
+const headObserver=new IntersectionObserver(stickyNav,{
+    root:null,threshold:0,rootMargin:`-${navElHeight}px`
+});
+
+headObserver.observe(headContent);
